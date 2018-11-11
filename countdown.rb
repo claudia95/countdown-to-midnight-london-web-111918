@@ -1,9 +1,10 @@
 #write your code here
 
 def countdown(integer)
-  
-  
-  
+  counter = integer
+  while counter > 0 
+    puts `#{number} SECOND(S)!`
+    counter -= 1 
+  end
+  puts "HAPPY NEW YEAR!" 
 end
-
-Write a method that takes in an integer argument and uses a while loop to countdown from that integer to 0, outputting "#{number} SECOND(S)!" in each iteration of the loop. The method should return "HAPPY NEW YEAR!"
